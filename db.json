@@ -1,9 +1,76 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
+    "users": [
+      {
+        "id": 1,
+        "first_name": "Mate",
+        "last_name": "Matic",
+        "email": "mate.matic@mup.hr",
+        "role": {
+          "role_id": 1,
+          "role_name": "Gradanin"
+        }
+      },
+      {
+        "id": 2,
+        "first_name": "Ivo",
+        "last_name": "Ivic",
+        "email": "ivo.ivic@mup.hr",
+        "role": {
+          "role_id": 2,
+          "role_name": "Zaposlenik na salteru"
+        }
+      },
+      {
+        "id": 3,
+        "first_name": "Ante",
+        "last_name": "Antic",
+        "email": "ante.antic@mup.hr",
+        "role": {
+          "role_id": 3,
+          "role_name": "Voditelj policijske postaje"
+        }
+      }
     ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
+    "services": [
+      {
+        "service_id": 1,
+        "service_name": "Izrada osobne iskaznice"
+      },
+
+      {
+        "service_id": 2,
+        "service_name": "Izrada putovnice"
+      },
+
+      {
+        "service_id": 3,
+        "service_name": "Izrada vozačke dozvole"
+      },
+
+      {
+        "service_id": 4,
+        "service_name": "Izrada rodnog lista"
+      },
+
+      {
+        "service_id": 5,
+        "service_name": "Izrada prometne karte"
+      }
     ],
-    "profile": { "name": "typicode" }
+    "service-office": [
+      {
+        "service_office_id": 1,
+        "service_office_name": "A"
+      },
+      {
+        "service_office_id": 2,
+        "service_office_name": "B"
+      },
+      {
+        "service_office_id": 3,
+        "service_office_name": "C"
+      }
+    ],
+    
+
   }
